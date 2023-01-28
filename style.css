@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: #002347;
+    color: #ffffff;
+    padding: 1em 8em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #001b36;
+    transition: .5s;
+}
+
+.persons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    width: 18em;
+    background: #002347;
+    margin: 0.5em;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+    padding: 1em;
+}
+
+p {
+    margin: 0.5em;
+    color: #ffffff;
+}
+
+.bold {
+    font-weight: bold;
+}
